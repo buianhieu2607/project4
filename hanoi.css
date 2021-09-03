@@ -1,0 +1,22 @@
+.el1 {
+	padding: 20px;
+}
+.content {
+	width: 50%;
+	margin: auto;
+	padding: 10px;
+}
+@media only screen and (max-width: 991px) and (min-width:768px) {
+	.content {
+		width: 100%;
+		height: auto;
+		/* float: left; */
+	}
+}
+@media only screen and (max-width: 767px){
+	.content {
+		width: 100%;
+		height: auto;
+		/* float: left; */
+	}
+}
